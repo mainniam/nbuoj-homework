@@ -1,0 +1,10 @@
+#include<stdio.h>
+#define PI 3.14
+#pragma warning(disable:4996)
+int main()
+{
+	double r;
+	scanf("%lf", &r);
+	printf("%.2lf %.2lf\n", r * 2 * PI, r * r * PI);
+	return 0;
+}
